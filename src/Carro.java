@@ -2,13 +2,13 @@ public class Carro {
 
     String cor;
     String modelo;
-    double capacidadeTanque;
+    int capacidadeTanque;
 
     Carro() {
 
     }
 
-    Carro(String cor, String modelo, double capacidadeTanque){
+    Carro(String cor, String modelo, int capacidadeTanque){
         this.cor = cor;
         this.modelo = modelo;
         this.capacidadeTanque = capacidadeTanque;
@@ -36,7 +36,7 @@ public class Carro {
         this.capacidadeTanque = capacidadeTanque;
     }
 
-    double getCapacidadeTanque() {
+    int getCapacidadeTanque() {
         return capacidadeTanque;
     }
 
